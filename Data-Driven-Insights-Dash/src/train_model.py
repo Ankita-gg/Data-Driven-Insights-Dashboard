@@ -34,6 +34,7 @@ plt.savefig("assets/confusion_matrix.png")
 plt.close()
 
 # Step 7: Save model and scaler
-joblib.dump({"model": model, "scaler": scaler}, "assets/pipeline.joblib")
+
+joblib.dump({"model": model, "scaler": scaler}, "../assets/pipeline.joblib")
 
 print("✅ Model training complete! Saved to assets/pipeline.joblib")
