@@ -6,7 +6,8 @@ from sklearn.metrics import accuracy_score, confusion_matrix, classification_rep
 from utils import load_data, split_data, scale_data
 
 # Step 1: Load dataset
-data_path = "data/Telco-Customer-Churn.csv"
+data_path = "../data/WA_Fn-UseC_-Telco-Customer-Churn.csv"
+
 df = load_data(data_path)
 
 # Step 2: Split data
