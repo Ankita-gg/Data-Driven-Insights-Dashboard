@@ -36,18 +36,13 @@ The solution combines data preprocessing, exploratory data analysis (EDA), machi
 
 ## 📂 Project Structure
 Data-Driven-Insights-Dashboard/
-
+│── assets/ # Images / model / confusion matrix
+│── data/ # Customer churn dataset
 │── src/
-
-│ ├── train_model.py
-
-│ ├── app.py
-
-│── data/
-
-│── requirements.txt
-
-│── README.md
+│ ├── train_model.py # Model training script
+│ ├── app.py # Streamlit dashboard
+│── requirements.txt # Dependencies
+│── README.md # Project documentation
 
 
 ---
