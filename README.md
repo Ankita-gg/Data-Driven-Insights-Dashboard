@@ -35,13 +35,18 @@ The solution combines data preprocessing, exploratory data analysis (EDA), machi
 ---
 
 ## 📂 Project Structure
-
 Data-Driven-Insights-Dashboard/
+
 │── src/
+
 │ ├── train_model.py
+
 │ ├── app.py
+
 │── data/
+
 │── requirements.txt
+
 │── README.md
 
 
